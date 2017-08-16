@@ -65,3 +65,6 @@ sudo apt-get -y install firefox filezilla
 
 # create filezilla folder for config downloading
 mkdir /root/.filezilla
+
+# copy contents of cronjobs.txt into crontab
+crontab /root/setup/cronjobs.txt

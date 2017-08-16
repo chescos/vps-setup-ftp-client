@@ -1,2 +1,2 @@
 # copy filezilla config
-wget -O /root/setup/sitemanager.xml $1
+wget -O /root/.filezilla/sitemanager.xml $1
