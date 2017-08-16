@@ -1,14 +1,11 @@
 # update package list
 sudo apt-get update
 
-# install unzip
-sudo apt-get -y install unzip
+# install git
+sudo apt-get -y install git
 
-# download zip folder
-wget -O /root/setup.zip https://github.com/chescos/vps-setup-ftp-client/archive/master.zip
-
-# unzip folder
-unzip /root/setup.zip -d /root/setup
+# clone repository
+git clone https://github.com/chescos/vps-setup-ftp-client.git /root/setup
 
 # start setup
 /root/setup/setup.sh
